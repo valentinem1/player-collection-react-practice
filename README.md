@@ -1,3 +1,5 @@
+# nba-player-collection-react-practice
+
 Hi Welcome to My NBA Player Collection!
 
 This is just a practice lab that I made to practice my React Skills for my code challenge at my bootcamp.
@@ -27,4 +29,3 @@ As I mentionned above this a really basic React App. I did not implement any fet
 Have fun!
 
 ![Showing functionality](screenshot.png)
-# nba-player-collection-react-practice
