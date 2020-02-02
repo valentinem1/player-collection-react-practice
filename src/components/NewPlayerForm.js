@@ -18,7 +18,7 @@ class NewPlayerForm extends Component {
                     type="text"
                     name="name"
                     value={this.state.name}
-                    onChange={this.handleChange}
+                    // onChange={this.handleChange}
                     placeholder="Player's name..."
                     />
                     <input 
@@ -26,7 +26,7 @@ class NewPlayerForm extends Component {
                     type="text"
                     name="team"
                     value={this.state.team}
-                    onChange={this.handleChange}
+                    // onChange={this.handleChange}
                     placeholder="Player's team..."
                     />
                     <input 
@@ -34,7 +34,7 @@ class NewPlayerForm extends Component {
                     type="text"
                     name="image"
                     value={this.state.image}
-                    onChange={this.handleChange}
+                    // onChange={this.handleChange}
                     placeholder="Player's image..."
                     />
                     <input type="submit"/>

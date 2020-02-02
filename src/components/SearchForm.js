@@ -14,7 +14,7 @@ class SearchForm extends Component {
                     type="text"
                     value={this.props.search}
                     placeholder="Search..."
-                    onChange={this.handleChange}
+                    // onChange={this.handleChange}
                     />
                 </form>
             </div>

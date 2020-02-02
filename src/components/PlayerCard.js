@@ -6,18 +6,21 @@ class PlayerCard extends Component {
         display: "no-display",
     }
 
+    
     render() {
+        
+        let {name, image, team, likes} = this.props.player
 
         return (
             <div>
-                <div onClick={this.handleClick} className="player-card">
+                <div /*onClick={this.handleClick}*/ className="player-card">
                 <img className="player-picture" src={image} alt={name}/>
                 <h1 className="player-name">{name}</h1>
                 <p className={this.state.display}>{team}</p>
                 </div>
 
                 <div className="like-div">
-                <button onClick={this.handleLikes} className= "like-button" >{likes} Likes</button>
+                <button /*onClick={this.handleLikes}*/ className= "like-button" >{likes} Likes</button>
                 </div>
             </div>
         );

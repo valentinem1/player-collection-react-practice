@@ -19,14 +19,14 @@ class App extends React.Component {
     return (
       <div className="App">
         <Header />
-        <NewPlayerForm addNewPlayer={this.addNewPlayer}/>
+        <NewPlayerForm /*addNewPlayer={this.addNewPlayer}*/ />
         <SearchForm 
-        search={this.state.search}
-        updateStateSearch={this.updateStateSearch}
+        // search={this.state.search}
+        // updateStateSearch={this.updateStateSearch}
         />
         <PlayerContainer 
-          players={this.updateSearch()}
-          updateLikes={this.updateLikes}
+          players={this.state.players}
+          // updateLikes={this.updateLikes}
         />
       </div>
     );
