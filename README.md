@@ -26,3 +26,5 @@ As I mentionned above this a really basic React App. I did not implement any fet
 
 
 Have fun!
+
+![Showing functionality](screenshot.png)
