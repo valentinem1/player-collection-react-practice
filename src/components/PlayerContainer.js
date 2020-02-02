@@ -12,6 +12,7 @@ class PlayerContainer extends Component {
                 {this.props.players.map(player => <PlayerCard 
                 key={player.id}
                 player={player}
+                updateLikes={this.props.updateLikes}
                 />)}
             </div>
         );

@@ -41,6 +41,22 @@
   display: block;
 }
 
+.like-div{
+  display: block;
+  float: left;
+
+  margin-top: 20rem;
+}
+
+.like-button{
+  background-color: dodgerblue;
+  color: #f0f0f0;
+  font-size: 0.8rem;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 3rem;
+  border-radius: 2rem;
+}
+
 .search-form{
   text-align: center;
 }

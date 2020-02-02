@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class PlayerCard extends Component {
 
     state={
-        display: "no-display"
+        display: "no-display",
     }
 
     handleClick = (event) => {
@@ -18,16 +18,27 @@ class PlayerCard extends Component {
         }
     }
 
+    handleLikes = (event) => {
+        // console.log("YOU LIKED ME!!!!")
+        this.props.updateLikes(this.props.player.id)
+    }
+
     render() {
         // console.log(this.props)
+        // console.log(this.state.likes)
         let {name, team, image, likes} = this.props.player
 
         return (
-            <div onClick={this.handleClick} className="player-card">
+            <div>
+                <div onClick={this.handleClick} className="player-card">
                 <img className="player-picture" src={image} alt={name}/>
                 <h1 className="player-name">{name}</h1>
                 <p className={this.state.display}>{team}</p>
-                <p className={this.state.display}>{likes} Likes</p>
+                </div>
+
+                <div className="like-div">
+                <button onClick={this.handleLikes} className= "like-button" >{likes} Likes</button>
+                </div>
             </div>
         );
     }
