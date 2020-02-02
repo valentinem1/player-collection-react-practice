@@ -29,4 +29,4 @@ As I mentionned above this a really basic React App. I did not implement any fet
 
 Have fun!
 
-![Showing functionality](https://gfycat.com/hilariousagitatedgrassspider)
+![Showing functionality](https://thumbs.gfycat.com/HilariousAgitatedGrassspider-mobile.mp4)
