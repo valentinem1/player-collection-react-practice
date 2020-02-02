@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.app-header{
+  background-color: #000000;
+  height: 5rem;
+}
+
+.header-logo{
+  color: #f0f0f0;
+  text-align: center;
+  padding: 1rem;
+  font-size: 2rem;
+  font-family: phosphate;
+}
+
+.players-container{
+  display: block;
+  margin-top: 3rem;
+  margin-left: 8rem;
+}
+
+.player-card{
+  float: left;
+  margin: 2rem;
+  text-align: center;
+}
+
+.player-picture{
+  width: 20rem;
+  height: 15rem;
+}
+
+.no-display{
+  display: none;
+}
+
+.display{
+  display: block;
+}
+
+.search-form{
+  text-align: center;
+}
+
+.input-search-form{
+  margin-top: 1.5rem;
+  height: 2rem;
+  width: 45rem;
+  border-radius: 2rem;
+  font-size: 1rem;
+  text-align: center;
+}
