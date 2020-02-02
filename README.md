@@ -22,11 +22,7 @@ What you should be able to do:
 
 This lab is mostly focus on working on your functionality skills.
 
-There is also a screen shot of the functionality down below so you know what to expect.
-
 As I mentionned above this a really basic React App. I did not implement any fetching yet. So any player created or liked will not persist after refreshing the page.
 
 
 Have fun!
-
-![Showing functionality](player-collection-screen-recording.mov)
