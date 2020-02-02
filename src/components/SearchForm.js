@@ -2,9 +2,6 @@ import React, { Component } from 'react';
 
 class SearchForm extends Component {
 
-    handleChange = (event) => {
-        this.props.updateStateSearch(event.target.value)
-    }
 
     render() {
 

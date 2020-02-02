@@ -5,8 +5,6 @@ class PlayerContainer extends Component {
 
     render() {
 
-        // console.log(this.props)
-
         return (
             <div className="players-container">
                 {this.props.players.map(player => <PlayerCard 

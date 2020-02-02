@@ -8,21 +8,7 @@ class NewPlayerForm extends Component {
         team: ""
     }
 
-    handleChange = (event) => {
-        let {name, value} = event.target
-        
-        this.setState({
-            [name]: value
-        })
-    }
-
-    submitNewPlayer = (event) => {
-        event.preventDefault()
-        this.props.addNewPlayer(this.state)
-    }
-
     render() {
-        // console.log(this.state)
 
         return (
             <div>

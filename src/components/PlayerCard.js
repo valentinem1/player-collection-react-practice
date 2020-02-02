@@ -6,27 +6,7 @@ class PlayerCard extends Component {
         display: "no-display",
     }
 
-    handleClick = (event) => {
-        if(this.state.display === "no-display"){
-            this.setState({
-                display: "display"
-            })
-        }else{
-            this.setState({
-                display: "no-display"
-            })
-        }
-    }
-
-    handleLikes = (event) => {
-        // console.log("YOU LIKED ME!!!!")
-        this.props.updateLikes(this.props.player.id)
-    }
-
     render() {
-        // console.log(this.props)
-        // console.log(this.state.likes)
-        let {name, team, image, likes} = this.props.player
 
         return (
             <div>
