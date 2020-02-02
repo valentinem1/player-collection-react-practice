@@ -14,3 +14,5 @@ What you can do:
 - You can like a player
 
 As I mentionned above this a really basic React App. I did not implement any fetching yet. So any player created or liked will not persist after refreshing the page.
+
+![Showing functionality](nbacollection_screenshot)
